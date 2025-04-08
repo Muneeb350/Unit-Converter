@@ -1,5 +1,6 @@
 import streamlit as st
 
+st.set_page_config(page_title="🔁 Unit Converter", layout="wide")
 st.title("🔁 Unit Converter App")
 st.markdown("### Converts Length, Time and Speed instantly")
 st.write("Welcome! Select a category, enter a value and get the converted result")
